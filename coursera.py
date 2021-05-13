@@ -1,3 +1,5 @@
+# Original Coursera Project:
+
 import requests
 
 def get_tastedive(movieName, key="410571-StudyApl-00U59XXC"):
@@ -58,4 +60,4 @@ def get_sorted_recommendations(listMovieTitle):
     
     return listMovie
 
-print(get_sorted_recommendations(["The Great Silence", "Keoma"]))
+print(get_sorted_recommendations(["Point Break"]))
